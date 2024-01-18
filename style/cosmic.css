@@ -160,7 +160,7 @@
     font-weight: 400;
 }
 .iconic-container{
-    padding: 40px 100px;
+    padding: 40px 140px;
     text-align: center;
 }
 .iconic-title{
@@ -178,6 +178,9 @@
 }
 .iconic-card{
     text-align: center;
+}
+.iconic-card img{
+  height: 390px;
 }
 .iconic-des{
     text-transform: uppercase;
@@ -217,4 +220,12 @@
 .footer-payment-icon i{
   font-size: 30px;
   color: #0D47A1;
+}
+.copyright{
+  text-align: center;
+  padding: 20px 10px ;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
 }
