@@ -1,0 +1,179 @@
+.header-container {
+  text-align: center;
+  padding: 8px 100px 5px 100px;
+}
+.header-title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-options {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: sans-serif;
+  border: none;
+}
+
+.header-up ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-up ul li {
+  margin-left: 35px;
+  list-style: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 3px 150px;
+}
+.header-ul li {
+  list-style: none;
+  margin-left: 5px;
+}
+.header-ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+/* Banner Container */
+.banner-container {
+  padding: 40px 0px 20px 0px;
+}
+.banner-img {
+  display: flex;
+  justify-content: space-around;
+}
+.banner-down {
+  padding: 40px 100px;
+  text-align: center;
+}
+.banner-down h1 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.banner-down p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.banner-down a {
+  font-size: 25px;
+  font-style: thin;
+  font-weight: 400;
+}
+.new-in-container {
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d9d9d9;
+}
+.new-in-left{
+    width: 400px;
+    margin: 50px;
+}
+.new-in-card{
+    text-align: center;
+}
+.new-in-card img{
+    height: 260px;
+}
+.new-in-card p{
+    text-transform: uppercase;
+}
+.new-in-title{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+}
+.new-in-des{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.new-in-btn{
+    font-size: 15px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.big-container{
+    padding: 20px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.big-card{
+    padding: 10px 10px;
+}
+.big-title{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 3px;
+}
+.big-des{
+    margin-top: 4px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 4px;
+}
+.big-card a{
+    margin-top: 3px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.iconic-container{
+    padding: 40px 100px;
+    text-align: center;
+}
+.iconic-title{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+.iconic-card-container{
+    background: #D9D9D9;
+    display: flex;
+    justify-content: space-around;   
+}
+.iconic-card{
+    text-align: center;
+}
+.iconic-des{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
