@@ -96,13 +96,14 @@
 }
 .new-in-left{
     width: 400px;
-    margin: 50px;
+    margin: 40px;
 }
 .new-in-card{
     text-align: center;
 }
 .new-in-card img{
-    height: 260px;
+  margin-left: 10px;
+    height: 290px;
 }
 .new-in-card p{
     text-transform: uppercase;
@@ -207,4 +208,13 @@
 }
 .footer-card-container ul li a{
   text-decoration: none;
+}
+.footer-payment-icon{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.footer-payment-icon i{
+  font-size: 30px;
+  color: #0D47A1;
 }
